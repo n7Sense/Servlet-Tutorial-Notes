@@ -51,34 +51,20 @@ Internally, each JSP page is actually converted into a servlet by the server
 			c. Taglib Directive
 
 	3.JSP Action Tags
-			i. Jsp Pre-Defiend Action Tags{
+			i. Jsp Pre-Defiend Action Tags {
 				1. Forward Action Tag
 				2. Include Action Tag
 				3. Param Action Tag
 				4. useBing Action Tag
 				5. setProperty action tag.
 				6. getProperty acton tag
+				etc.
 			}
 
 			ii. Custom Tags.
 
 
-Scripting Element
-==================
-	a. Declearative Element{
-		to declare Veriables and Methods use this element.
 
-		Syntax: 
-		<%! Declare the instance veriable and methods %>
-
-		Example:
-		<%! int count = 0;
-			
-			void method(){
-
-			}
-		%>
-	}
 		
 <%@ page 	imort="" %> Import Element
 
