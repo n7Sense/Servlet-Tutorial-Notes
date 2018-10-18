@@ -10,20 +10,30 @@ After implementing the business logic in different servlet then how to Provide t
 if  we want to provide a communication between the servlet then we have to go for the servlet communication 
 If you want to provide the communication between the two servlet then we should have to be go for RequestDispatcher interface.
 
+
+we can do a 3-way to Inter-Servlet-Communication
+	1. getServlet("ServletName")
+	2. RequestDispatcher
+	3. sendRedirect();
+
 	RequestDispatcher
 ========================
 
 1.Methods:
 
-		to forward the current Servlet Result to other Servlet.
-	  public abstract void forward(ServletRequest paramServletRequest, ServletResponse paramServletResponse)
-	  throws ServletException, IOException;
+	To forward the current Servlet Result to other Servlet.
+	public abstract void forward(ServletRequest paramServletRequest, ServletResponse paramServletResponse)
+		throws ServletException, IOException;
 	  
-	  we can include the other Pages Result into current servlet.
-	 public abstract void include(ServletRequest paramServletRequest, ServletResponse paramServletResponse)
+	We can include the other Pages Result into current servlet.
+	public abstract void include(ServletRequest paramServletRequest, ServletResponse paramServletResponse)
 	    throws ServletException, IOException;
 
-2. To get RequestDispatcher object.
-		
+2. To get RequestDispatcher object.		
 		RequestDispatcher rd - paramServletRequest.getRequestDispatcher();
 
+3. 	RegistrationServlet registrationServlet = getServletContext().getServlet("ServletClassName");
+
+4. 	RequestDispatcher rd = request.getRequestDispatcher("RegisterServlet");
+		rd.forward(req, resp);
+		rd.include(req, resp);

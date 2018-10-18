@@ -9,7 +9,7 @@
 
 4. 	not providing the security for the data. data can be display on the address-bar very clearly.
 
-3. Dynamic Web Page;
+5. Dynamic Web Page;
 	a page which is created by Servlet-Container is called Dynamic web page
 
 	example:
@@ -27,3 +27,5 @@
 		}
 
 		by the above example the page is produced by Servlet-Container:
+
+6. not providing support for sessio manager tool.

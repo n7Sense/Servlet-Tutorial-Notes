@@ -75,7 +75,7 @@
 	|					|			   |------> classes 						|				  |
 	|					|			   |			|							|ServletContext	  |
 	|					|			   |			|--->A.class ServletConfigA |				  |
-	|					|			   |			|				 			|	Object		  |
+	|					|			   |			|			 	 			|	Object		  |
 	|					|			   |			|--->B.class ServletConfigB	|				  |
 	|	 				|			   |            |							|				  |
 	|					|			   |			|--->C.class ServletConfigC	|				  |
@@ -91,3 +91,5 @@
 	|																			|				  |
 	|																			|				  |
 	+---------------------------------------------------------------------------+-----------------+
+
+	Garbage are responsible for Object, but not any resources, like FileOpen, Connection etc.
