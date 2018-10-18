@@ -29,3 +29,6 @@
 		by the above example the page is produced by Servlet-Container:
 
 6. not providing support for sessio manager tool.
+
+7. GenericServlet Servlet handle only 1 Form data at a time, to handle multiple Form data then we shuld have multiple GenericServlet
+	class.
