@@ -56,3 +56,13 @@ web.xml
 </web-app>
 
 
+	ServletSessionListener
+===============================
+when we create an session object interbally it session listener execute opening and closing session the event is gnerated.
+
+
+
+	RequestListener
+=======================
+request listener to handle and mentain request object.
+
