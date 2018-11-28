@@ -1,7 +1,7 @@
 	GenericServlet
 =====================
 
-1.	We no need to implements the all the life-cycle methods, we just have ti provide the implementation of 
+1.	We no need to implements the all the life-cycle methods, we just have to provide the implementation of 
 	service() methods
 2. 	public abstract class GenericServlet extends java.lang.Object implements Servlet, ServletConfig, java.io.Serializable
 

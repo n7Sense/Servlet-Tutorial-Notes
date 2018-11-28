@@ -3,13 +3,13 @@
 ==========================
 	1.	usually we can said Tomcat Container or Tomcat Servlet Container.
 	2. 	Servlet Container (e.g suppose Tomcat Container).
-		when we startthe Container then Container will read all WAR file, mean it will extract WAR file into 
+		when we start the Container then Container will read all WAR file, mean it will extract WAR file into 
 		webapp folder. that is called deployement.
 	3.	After deployement, Container will read web.xml file after read it will create 2 OBJECT i.e
 			i. ServletContext 
 			ii. ServletConfig
 
-	4. aour one specific project Container create 2 Object after deployement.
+	4. our one specific project Container create 2 Object after deployement.
 		
 	5. if i have to to share the my some Object to all Servlet class then that object are stored in ServletContext.
 		it is an public area or public scope, 
