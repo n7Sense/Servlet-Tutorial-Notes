@@ -1,7 +1,7 @@
 Servlet Communication
 ======================
 
-Implementing total Business logic in single servlet is not good programming, if we do then we will fac some problems
+Implementing total Business logic in single servlet is not good programming, if we do then we will face some problems
 if any problem is occured then searhing the code inside the single servlet is very complex, 
 and whenevr we are doing any small changes then we have to compile entire Servlet. this is one of the biggest problem
 

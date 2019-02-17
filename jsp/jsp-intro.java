@@ -24,7 +24,7 @@ Internally, each JSP page is actually converted into a servlet by the server
 
 	Advantages Of JSP
 	------------------
-		1. no need to congigure inside web.xml.
+		1. no need to configure inside web.xml.
 		2. presenting the data is very fast. compare to Servlet.
 		3. when modify, no need to Stop and Re-Start the server.
 		4. JSP pages allowed by the HTML code and Textual code and Java Code also.
